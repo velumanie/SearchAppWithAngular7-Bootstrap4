@@ -1,0 +1,27 @@
+<div class="site">
+    <div class="site-content">
+      <div class="container">
+        <nav class="navbar navbar-expand navbar-dark">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" [routerLink]="['/home']" routerLinkActive="active"><i
+                 class="d-none d-sm-inline-block fas fa-home mx-1"></i>Home</a>        
+          </div>
+        </nav>
+      </div>
+      <div class="header">
+        <div class="container">
+         </div>
+      </div>
+      <main class="main-content container">
+        <router-outlet></router-outlet>
+       </main>
+    </div>
+    <footer class="footer container">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <p>© Copyright 2019. All rights reserved.</p>
+        </div>     
+      </div>
+    </footer>
+  </div>
+  

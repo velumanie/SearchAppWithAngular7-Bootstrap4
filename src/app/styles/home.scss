@@ -1,0 +1,66 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-content {
+    flex: 1;
+}
+
+.main-content {
+    margin-top: -40px
+}
+
+.header {
+    background-size: cover;
+    background-position: bottom;
+    min-height: 50px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.navbar {
+    background: $alt-bg;
+    border-bottom: 3px solid $accent;
+    top: 1.5rem;
+
+    .navbar-nav .nav-link {
+        color: $alt-color;
+        padding: 1rem 0.5rem;
+        transition: color 0.2s ease-in;
+
+        &.active {
+            color: $accent;
+        }
+
+    }
+}
+.footer {
+    position: relative;
+    bottom: 1.25rem;
+    color: $alt-color;
+    border-top: 3px solid $accent;
+    background-color: $alt-bg;
+
+    p {
+        padding-top: 1.25rem;
+    }
+}
+.example-container {
+    height: 400px;
+    overflow: auto;   
+  }
+  
+  table {
+    width: 100%;
+  }
+
+  .mat-header-cell {
+    color: rgba(0, 0, 0, 1);
+    font-weight:600;
+}  
